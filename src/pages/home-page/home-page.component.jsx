@@ -32,6 +32,7 @@ const Homepage = () => {
     return (
         <div className='container'>
             <div className='row'>
+                <h3 className='text-center'>{movieSelected.title}</h3>
                 <MovieDetails movie={movieSelected} />
                 <MovieList movies={movies} selectMovie={selectMovie} />
             </div>

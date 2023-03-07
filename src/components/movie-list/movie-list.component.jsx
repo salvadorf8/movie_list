@@ -24,7 +24,7 @@ const MovieList = ({ movies, selectMovie }) => {
         );
     });
 
-    return <ul className='col-md'>{renderMovies}</ul>;
+    return <ul className='col-md name-list'>{renderMovies}</ul>;
 };
 
 export default MovieList;
