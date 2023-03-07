@@ -2,10 +2,11 @@ import { useState } from 'react';
 
 import './movie-list.styles.css';
 
-const MovieList = ({ movies }) => {
+const MovieList = ({ movies, selectMovie }) => {
     const [selectedIndex, setSelectedIndex] = useState();
 
     const handleClick = (movie, index) => {
+        selectMovie(movie);
         setSelectedIndex(index);
     };
 
