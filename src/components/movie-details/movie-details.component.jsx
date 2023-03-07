@@ -1,8 +1,10 @@
+import './movie-details.styles.css';
+
 const MovieDetails = ({ movie }) => {
     return (
         <div className='col-md text-center'>
             <h3>{movie.title}</h3>
-            {/* <img src={movie.posterUrl} alt={movie.title} /> */}
+            <img className='img-fluid' src={movie.posterUrl} alt={movie.title} />
             <div>
                 <p>{movie.director}</p>
                 <p>{movie.casts}</p>
