@@ -30,7 +30,7 @@ const Homepage = () => {
     });
 
     return (
-        <div className='container'>
+        <div className='container pb-5'>
             <div className='row'>
                 <h3 className='text-center'>{movieSelected.title}</h3>
                 <MovieDetails movie={movieSelected} />
