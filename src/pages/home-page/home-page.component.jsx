@@ -30,10 +30,11 @@ const Homepage = () => {
     });
 
     return (
-        <div>
-            <h1>HomePage</h1>
-            <MovieList movies={movies} selectMovie={selectMovie} />
-            <MovieDetails movie={movieSelected} />
+        <div className='container'>
+            <div className='row'>
+                <MovieDetails movie={movieSelected} />
+                <MovieList movies={movies} selectMovie={selectMovie} />
+            </div>
         </div>
     );
 };

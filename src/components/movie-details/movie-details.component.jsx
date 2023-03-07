@@ -1,6 +1,6 @@
 const MovieDetails = ({ movie }) => {
     return (
-        <div>
+        <div className='col-md text-center'>
             <h3>{movie.title}</h3>
             {/* <img src={movie.posterUrl} alt={movie.title} /> */}
             <div>
