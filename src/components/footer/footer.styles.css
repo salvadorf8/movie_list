@@ -1,0 +1,19 @@
+.bottom-footer {
+    background-color: #1e4847;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    color: white;
+    padding: 14px 14px 15px 21px;
+}
+.year-color {
+    color: #555e66;
+    font-family: 'Advent Pro', sans-serif;
+    margin-left: 10px;
+}
+
+.email-color {
+    color: #ffffff99;
+    font-family: 'Advent Pro', sans-serif;
+    padding-left: 10px;
+}
